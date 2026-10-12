@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Member Profile & Registration</title>
+
+    
+<link rel="icon" href="https://tse3.mm.bing.net/th/id/OIP.IGocSugSvhpZbX0Lp3SwDAAAAA?r=0&w=256&h=256&rs=1&pid=ImgDetMain&o=7&rm=3" type="png">
+</head>
+
+<body >
+
+    
+    <h1 align="center"><i>Library Member Profile</i></h1>
+
+    
+    <p align="center">
+        Welcome to <b>Library Membership</b> page.
+        Register to become an <i>active library member</i>.
+    </p>
+<hr>
+
+    <div>
+        <h2>Current Library Member</h2>
+       
+        
+        <p>
+            Member Status:
+            <span><b>Active</b></span>
+        </p>
+  </div>
+
+   
+    <h2>Member Profile</h2>
+<img src="https://static.vecteezy.com/system/resources/thumbnails/005/544/718/small/profile-icon-design-free-vector.jpg"
+     alt="Library Member Profile Picture"
+     height="50"
+     border="1"> <br>
+    <a href="#registration">Go to Membership Registration Form</a>
+
+    <hr>
+
+   
+    <h2>Member Information</h2>
+
+    <table border="1">
+        <tr>
+            <th>Member ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Image</th>
+        </tr>
+
+
+    </table>
+
+    <hr>
+
+    <h2 id="registration">Membership Registration Form</h2>
+
+    <form action="" method="get">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <label>Gender:</label>
+
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+
+        <br><br>
+        <label for="membership">Membership Type:</label>
+
+        <select id="membership" name="membership" required>
+            <option value="">-- Select Membership --</option>
+            <option value="regular">Regular</option>
+            <option value="premium">Premium</option>
+        </select>
+
+        <br><br>
+        <label for="profile">Upload Profile Picture:</label>
+        <input type="file" id="profile" name="profile">
+        <br><br>
+
+        <label for="address">Address:</label>
+        <br><br>
+
+        <textarea id="address" name="address" rows="4" cols="50" placeholder="Enter your address here"></textarea><br><br>
+
+       
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the library terms and conditions.</label><br><br>
+
+        <button type="submit">Submit</button>
+        
+
+    </form>
+
+
+</body>
+</html>
